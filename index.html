@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap" rel="stylesheet">
+    <title>WebGPU</title>
+</head>
+<body>
+    <h1>WebGPU Game Of Life</h1>
+    <canvas id="canvas" width="512" height="512"></canvas>
+    <div class="controls">
+        <button id="reset" class="reset btn">Reset</button>
+        <div class="b-wrapper">
+            <h2 id="speed" class="speed">Interval: 200</h2>
+            <div>
+            <button id="down" class="down btn">Slow Down</button>
+            <button id="up" class="Up btn">Speed Up</button>
+        </div>
+        </div>
+    </div>
+</body>
+<script type="module" src="webgpu.js"></script>
+</html>
